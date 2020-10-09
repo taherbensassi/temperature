@@ -1,18 +1,4 @@
-import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
-
-const Header = (props) => {
-    const { textStyle, viewStyle} = styles;
-
-    return (
-        <View style={viewStyle}>
-            <Text  style={textStyle}> Mobile Information Systems - Aufgabe 5  </Text>
-        </View>
-    );
-};
-
-
-const styles = StyleSheet.create({
+export default {
     viewStyle: {
         backgroundColor: '#1abc9c',
         alignItems: 'center',
@@ -31,7 +17,4 @@ const styles = StyleSheet.create({
         color: '#fff',
 
     },
-});
-
-
-export default Header;
+};
